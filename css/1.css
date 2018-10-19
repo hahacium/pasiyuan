@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 html {
     display: block;
 }
@@ -307,7 +307,7 @@ a {
 #lan .dawang h2{
 	font-size: 18px;
     margin: 0 0 15px;
-    font-weight: 700;
+    //font-weight: 700;
 }
 #lan .dawang div{
 	with:600px;
@@ -336,13 +336,13 @@ a {
 }
 #footer .kuan{
 	margin: 0 auto;
-	width:1000px;
+	width:73%;
 	display: block;
 }
 #footer .top {
-	width:85%;
+	width:83%;
 	box-sizing: border-box;
-		padding-left:33px;
+	//padding-left:33px;
     margin: auto 0;
 	float: left;
 }
