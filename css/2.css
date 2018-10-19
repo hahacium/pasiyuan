@@ -1,0 +1,133 @@
+@charset "utf-8";
+#ce {
+	//width: 1000px;
+	margin-top: 37px;
+    margin-right: 7em;
+}
+#ce .cebar {
+	width: 110px;
+	float: right;
+	position: absolute;
+	left: 86%;
+    top: 797px;
+}
+#ce .cebox {
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#ce .cebox h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+#ce .tag {
+	padding: 10px 0;
+}
+#ce .tag li {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+	text-align:center;
+	border-radius: 2em;
+	border-radius:2em;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#ce .tag a {
+	display: block;
+	color: #999;
+	text-overflow:ellipsis;
+}
+#ce .tag a:hover {
+	background-color: rgba(23, 23, 50, 0.7);
+	color: #fff;
+	border-radius: 2em;
+	transition: all 0.15s;
+}
+#ce .tag a:focus {
+	background-color: rgba(23, 23, 50, 0.7);
+	color: #fff;
+	border-radius: 2em;
+}
+#container {
+	max-width:1000px;
+	margin: 37px auto 80px;
+	cursor:default;
+}
+#container .sidebox {
+	margin: 0 0 10px 0;
+	border: 1px solid hsla(0,0%,0%,0.00);
+}
+#container .sidebox:before{
+    content:'';
+    position:absolute;
+    //top:1;
+    height:43px;
+    width:0;
+    //background:hsla(0,0%,80%,0.80);
+    background:#E6E6E6;
+    z-index:-1;
+    transition:200ms ease all;
+}
+#container .sidebox:hover:before{
+  width:70em;
+  transition:400ms ease all;
+}
+#container .sidebox h2 {
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	text-align: left;
+}
+/*#container .sidebox h2:hover,
+#container .sidebox h2:hover {
+	color:#fff;
+	transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}*/
+#container .tag {
+	text-align: center;
+	height: 158px;
+	padding: 10px 0;
+}
+#container .tag li {
+	display: block;
+	float: left;
+    width: 142px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#container .tag a {
+	display: block;
+	//border-radius: 4px;
+	color: #999;
+	text-overflow:ellipsis;
+}
+#container .tag a:hover {
+	//background-color: #0079Ba;
+	background-color: #6FB1B1;
+	color: #fff;
+	//transition: all 0.03s;
+}
+#container .tag a:focus{
+	//background-color: #0079Ba;
+	background-color: #8FC2C2;
+	color: #fff;
+}
