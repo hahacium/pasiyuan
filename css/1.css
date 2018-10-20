@@ -258,8 +258,12 @@ a {
 	margin: auto;
 	text-align: center;
 }
+#lan .lj{
+	text-align: center;
+	margin: auto;
+	position: relative;
+}
 #lan .lj a{
-	position:relative;
 	color:#001A6A;
 }
 #lan .lj a:hover,
