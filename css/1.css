@@ -248,6 +248,7 @@ a {
 	cursor:default;
 }
 #lan div{
+	overflow:hidden;
 	margin: auto;
 }
 #lan .gu{
