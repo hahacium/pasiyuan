@@ -258,11 +258,12 @@ a {
 	margin: auto;
 	text-align: center;
 }
-.lj a{
+#lan .lj a{
+	position:inherit;
 	color:#001A6A;
 }
-.lj a:hover,
-.lj a:hover{
+#lan .lj a:hover,
+#lan .lj a:hover{
 	color: #fff;
 	border-bottom: 1px solid #fff;
 }
