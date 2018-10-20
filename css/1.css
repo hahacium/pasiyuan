@@ -250,6 +250,11 @@ a {
 #lan div{
 	margin: auto;
 }
+#lan .gu{
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
 #lan h1{
 	font-size: 36px;
     font-weight: 100;
