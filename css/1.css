@@ -392,6 +392,7 @@ footer p{
   padding-top: 26px;
   height: 130px;
   float: right;
+  text-align: center;
 }
 
 #footer .wo .button {
