@@ -259,7 +259,7 @@ a {
 	text-align: center;
 }
 #lan .lj a{
-	position:inherit;
+	position:relative;
 	color:#001A6A;
 }
 #lan .lj a:hover,
