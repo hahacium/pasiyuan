@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="css/2.css">
 	<script>
 		function ok(){
+			var popup=document.querySelector('#popup');
+			popup.onclick=function(){
+				document.querySelector('.popup__close').click();
+			}
 			var btn=document.querySelector('.btn');
 			btn.onclick=function(){
 			var baidu_val=document.querySelector('.search').value;
@@ -24,7 +28,7 @@
 			<li>
 			<h1 class="logo">PaSi</h1>
 			<ul class="drop menu2">
-			<li><a href="zy.html">主页</a></li>
+			<li><a href="index.html">主页</a></li>
 			<li><a href="rj.html">软件</a></li>
 			<li><a href="sc.html">素材</a></li>
 			<li><a href="yp.html">音频</a></li>
@@ -35,7 +39,7 @@
 	   </nav>
 		<nav class="link">
 			<ul>
-				<li class="wei"><a href="zy.html">主页</a></li>
+				<li class="wei"><a href="index.html">主页</a></li>
 				<li class="splint"></li>
 				<li class="xian"><a href="rj.html">软件</a></li>
 				<li class="splint"></li>
