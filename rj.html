@@ -5,6 +5,16 @@
 	<title>怕死导航-同学的导航</title>
 	<link rel="stylesheet" href="css/1.css">
 	<link rel="stylesheet" href="css/2.css">
+	<script>
+		function ok(){
+			var btn=document.querySelector('.btn');
+			btn.onclick=function(){
+			var baidu_val=document.querySelector('.search').value;
+			window.open('https://www.baidu.com/s?wd='+baidu_val+'');
+			}
+		}
+		window.onload=ok;
+	</script>
 </head>
 <body>
 <header id="header">
@@ -14,7 +24,7 @@
 			<li>
 			<h1 class="logo">PaSi</h1>
 			<ul class="drop menu2">
-			<li><a href="index.html">主页</a></li>
+			<li><a href="zy.html">主页</a></li>
 			<li><a href="rj.html">软件</a></li>
 			<li><a href="sc.html">素材</a></li>
 			<li><a href="yp.html">音频</a></li>
@@ -25,7 +35,7 @@
 	   </nav>
 		<nav class="link">
 			<ul>
-				<li class="wei"><a href="index.html">主页</a></li>
+				<li class="wei"><a href="zy.html">主页</a></li>
 				<li class="splint"></li>
 				<li class="xian"><a href="rj.html">软件</a></li>
 				<li class="splint"></li>
@@ -245,15 +255,19 @@
 			<img src="img/f5268292b39f11f70cb4998a08406b5b5c047d3c0bc43ec739b2132236b1404f (2).jpg" alt="">
 		  </div>
 		  <div class="popup__text">
-			<h1> Man Xin Lin </h1>
-			<p>The sky will be great for the people.Self reliant and self reliant, although there are only four simple words, it is not so easy to really do it. A person can achieve success only if he has the quality of self-reliance and self-improvement, striving for himself and striving for more. I will carry forward the fine quality of self reliance and self reliance, and use my tireless efforts to write a wonderful life.</p>
+			<h1>林满鑫</h1>
+			<p>大二在读，曾管理校级机构官方公众号，多次组织策划机构活动，上台表演，全国职业技能大赛HTML5竞赛班生</p>
+			<p>熟悉HTML5、CSS3、Javascript(Ajax) 、JQuery、ASP.NET、Bootstrap框架，了解HTTP协议、TCP/IP协议，了解SqlServer、MySQL，了解PHP、ASP.NET MVC、C#、 C语言</p>
+			<p>熟练使用Dreamweaver、Sublime Text 3、Visual Studio、chrome开发者工具等编程软件、工具，了解Fiddler抓包工具，
+			入门Photoshop
+			</p>
 		  </div>
 		  <a class="popup__close" href="#footer">X</a>
 		</div>
 	  </div>
 	</div>
 	</div>
-	<div class="bottom">Copyright © 2018 PaSi导航| 粤ICP 备120110119 号| Theme By Manxin</div>
+	<div class="bottom">Copyright © 2018 PaSi导航| 粤ICP 备05074792号| Demo By Manxin</div>
 </footer>
 </body>
 </html>

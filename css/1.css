@@ -1,6 +1,6 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 html {
-    display: block;
+  display: block;
 }
 body,div,h1,h2,h3,ul,ol,p,figure {
 	margin: 0;
@@ -10,13 +10,14 @@ body {
 	width: 100%;
 	background-color:#FEFEFE;
 	font-size: 14px;
-    font-family: 微软雅黑;
+  font-family: 微软雅黑;
 	margin: 0;
-    padding: 0;
+  padding: 0;
+	position:relative;
 	display: block;
 }
 div {
-    display: block;
+  display: block;
 }
 ul,ol {
 	list-style: outside none none;
@@ -36,18 +37,18 @@ a {
 }
 #header .cai {
 	margin-top: 12px;
-    margin-left: 30px;
+  margin-left: 30px;
 	color: #eee;
-    float: left;
+  float: left;
 	line-height: 35px;
-    font-size: 25px;
-    display: block;
+  font-size: 25px;
+  display: block;
 	cursor:default;
 	position: fixed;
 	outline:none;
 	height: 40px;
-    text-align: center;
-    border-radius: 4px;
+  text-align: center;
+  border-radius: 4px;
 }
 #header .main {
  	display: flex;
@@ -55,7 +56,7 @@ a {
 #header .logo {
 	color: #eee;
 	line-height: 35px;
-    font-size: 25px;
+  font-size: 25px;
 }
 #header .main:hover .logo,
 #header .main:hover .logo {
@@ -131,8 +132,9 @@ a {
 #header .drop li a:hover{
 	opacity: 0.97;
 	font-size: 15px;
+  color: #06b7a7;
 	//color: hsla(0,0%,76%,1.00);
-	color:rgba(0,223,252,1);
+	//color:rgba(0,223,252,1);
 	//border-top: dotted 1px rgba(255,255,255,.15);
 	//border-bottom: dotted 1px rgba(255,255,255,.15);
 	border-top: solid 1px #fff;
@@ -238,26 +240,31 @@ a {
 	width: 100%;
 	min-height: 327px;
 	line-height: 1.6;
-    background: #0065B3;
-    background: -webkit-radial-gradient(bottom, #0096D6 12%, #00328F);
-    background: radial-gradient(at bottom, #0096D6 12%, #00328F);
-    color: #fff;
-    padding: 83px 0 46px;
-    text-align: center;
-    margin:auto;
+  background: radial-gradient(at bottom, #009688 12%, #009688);
+  //background: radial-gradient(at bottom, #0096D6 12%, #00328F);
+  color: #fff;
+  padding: 83px 0 46px;
+  text-align: center;
+	margin: auto;
 	cursor:default;
 }
 #lan div{
-	overflow:hidden;
-	margin: auto;
+	//overflow:hidden;
+	margin:auto;
 }
 #lan .gu{
 	font-size: 36px;
-    	font-weight: 100;
+    font-weight: 100;
 	padding-bottom: 8px;
 	width: 200px;
 	margin: auto;
 	text-align: center;
+}
+#lan h1{
+	//font-size: 36px;
+  //font-weight: 100;
+	//text-align: center;
+	//padding-bottom: 8px;
 }
 #lan .lj{
 	width: 400px;
@@ -266,14 +273,14 @@ a {
 	margin: auto;
 }
 #lan .lj a{
-	color:#001A6A;
+	color:#001a6a91;
 }
 #lan .lj a:hover,
 #lan .lj a:hover{
 	color: #fff;
 	border-bottom: 1px solid #fff;
 }
-.kong{
+#lan .kong{
 	padding-top:2%;
 }
 #sou {
@@ -283,14 +290,14 @@ a {
 }
 #sou .search{
 	box-sizing:border-box;
-    border: 0 solid #fff;
-    box-shadow: none;
+  border: 0 solid #fff;
+  box-shadow: none;
 	width:90%;
-    height: 48px;
-    padding: 8px 18px;
-    font-size: 15px;
-    background-color: #fff;
-    border-top-left-radius:4px;
+  height: 48px;
+  padding: 8px 18px;
+  font-size: 15px;
+  background-color: #fff;
+  border-top-left-radius:4px;
 	border-bottom-left-radius:4px;
 	float: left;
 	display: inline-block;
@@ -303,7 +310,7 @@ a {
 	height: 48px;
 	width:10%;
 	text-align: center;
-    vertical-align: middle;
+  vertical-align: middle;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	cursor:pointer;
@@ -320,7 +327,9 @@ a {
 }
 #lan .dawang h2{
 	font-size: 18px;
-    	padding-bottom: 10px;
+	padding-bottom: 10px;
+  //margin: 0 0 15px;
+  //font-weight: 700;
 }
 #lan .dawang div{
 	with:600px;
@@ -497,8 +506,8 @@ footer p{
   padding: 4rem;
 }
 #footer .wo .popup__text h1 {
-  font-size: 2rem;
-  font-weight: 600;
+  /*font-size: 2rem;*/
+  font-weight: 500;
   margin-bottom: 2rem;
   text-transform: uppercase;
   color: #0A0A0A;
