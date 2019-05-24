@@ -20,6 +20,13 @@
 			}
 		}
 		window.onload=ok;
+		document.onkeydown=function(event){
+			let e=event||window.event||arguments.callee.caller.arguments[0];
+			let search=document.querySelector('.search');
+			if(e.key=='Enter'&&search==document.activeElement){
+				document.querySelector('.btn').click();
+			}
+		}
 	</script>
 </head>
 <body>
@@ -63,7 +70,7 @@
     <div  id="sou">
 		<input type="text" class="search"  placeholder="搜索..." autocomplete="off">
 	  <a>
-		<button class="btn" type="submit" aria-hidden="true"><img class="trea1" src="img/search.png"></button>
+		<button class="btn" type="button" aria-hidden="true"><img class="trea1" src="img/search.png"></button>
 	  </a>
     </div>
 	<div class="dawang">
